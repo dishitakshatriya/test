@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-image:url(../images/background.jpg);
+	font-family: Verdana, sans-serif;
+    color:grey;
+}
+#wrapper {
+	width: 90%;
+	margin:0 auto;
+
+}
+
+/** For the coast image **/
+
+.floatleft {
+	float: left;
+	padding-right: 30px;
+}
+
+/** For the nav tag **/
+nav {
+	width: 180px;
+	font-weight: bold;
+	float: left;
+    background-color: skyblue;
+    color:navy;
+    margin: 0 auto;
+    height:65%;
+    padding:0;
+    position:absolute;
+    display: block;
+}
+
+nav a {
+	text-decoration: none;
+    padding-bottom: 30px;
+}
+
+nav a:link {color:red;}
+nav a:visited {color:green;}
+nav a:hover {color: #1d15ff; }
+
+nav ul {
+	list-style-type: none;
+}
+h1 {
+	margin: 0;
+    padding:0;
+}
+main {
+	margin-left: 180px;
+	background-color:white;
+	padding: 10px 20px 10px 20px;
+    color:grey;
+}
+
+/** For the footer **/
+footer{
+	background-color:white;
+	color:grey;
+	text-align: center;
+	font-size: .80em;
+	font-style:italic;
+}
+
+/** For the header **/
+
+header {
+    margin:0;
+	color: white;
+	text-align:left;
+	background-image: url('../images/sunset.jpg');
+    background-repeat: no-repeat;
+}
+.text-block {
+    margin:0;
+    position: absolute;
+    top: 50px;
+    text-align: left;
+    left: 100px;
+    color: white;
+}
+
+#p1 {
+    font-weight:800;
+    color:skyblue;
+    font-size:20px;
+    
+}
+
+.description {
+    font-weight: 700;
+    font-size: 20px;
+    color: navy;
+}
+
+header, footer,  main {
+    overflow: auto;
+}
+
+.div1, .floatleft {
+    margin-left: -40px;
+}
+
